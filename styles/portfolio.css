@@ -31,6 +31,11 @@
     font-size: 20px;
     border: none;
 }
+.call-btn{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
 
 .section-title{
     font-size: 35px;
