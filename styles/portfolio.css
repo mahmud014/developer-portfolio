@@ -206,3 +206,32 @@ main section{
 .resume-cv{
     margin-top: 50px;
 }
+
+/* footer styles */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+    padding-top: 130px;
+}
+
+.footer-des{
+    padding: 20px 117px 6px 0px;
+}
+
+footer input[type="text"], footer input[type="email"], textarea{
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+}
