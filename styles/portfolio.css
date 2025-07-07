@@ -10,13 +10,90 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark-2{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+/* Header */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /* nav style */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
+
 
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 200px;
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-grettings{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+/* .banner-description{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    width: 585px; height: 60px;
+} */
+
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
 }
